@@ -73,16 +73,6 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    nav ul li {
-        display: block;
-        text-align: center;
-        margin-bottom: 10px;
-    }
-}
-
 .links-container {
     display: flex; 
     justify-content: space-around; 
@@ -101,11 +91,21 @@ footer {
 }
 
 .thumbnail {
-    width: 50px; /* Significantly reduced thumbnail size */
-    height: auto; /* Maintains aspect ratio */
-    margin-bottom: 5px; /* Adds some space between the thumbnail and the text */
+    width: 50px; 
+    height: auto; 
+    margin-bottom: 5px; 
 }
 
 a:hover .thumbnail {
-    transform: scale(1.1); /* Increases image size on hover */
+    transform: scale(1.1); 
 }   
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+
