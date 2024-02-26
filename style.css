@@ -91,15 +91,11 @@ footer {
 }
 
 .thumbnail {
-    width: 50px; 
+    width: 25px; 
     height: auto; 
     margin-bottom: 5px; 
 }
 
-a:hover .thumbnail {
-    transform: scale(1.1); 
-}   
-/* Responsive Design */
 @media (max-width: 768px) {
     nav ul li {
         display: block;
