@@ -82,31 +82,30 @@ footer {
     }
 }
 
-.thumbnail-container {
-    display: flex; 
-    justify-content: center; 
-    gap: 10px;
-}
-
-.thumbnail-item {
-    display: flex; 
+.links-container {
+    display: flex;
     flex-direction: column; 
     align-items: center; 
-    text-align: center;
+    justify-content: center; 
 }
 
-.thumbnail-item a {
+.link-with-thumbnail {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+.link-with-thumbnail a {
     text-decoration: none; 
     color: inherit; 
+    display: block; 
 }
 
 .thumbnail {
-    width: 30px; 
+    width: 80px; 
     height: auto; 
     margin-bottom: 5px; 
 }
 
-.thumbnail-item span {
-    display: block; 
-    font-size: 0.8em; 
-}
