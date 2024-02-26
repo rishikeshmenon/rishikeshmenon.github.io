@@ -73,28 +73,6 @@ footer {
     bottom: 0;
     width: 100%;
 }
-.links-container {
-    display: flex; 
-    justify-content: space-around; 
-}
-.link-with-thumbnail {
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
-    text-align: center; 
-    margin-right: 20px; 
-}
-
-.link-with-thumbnail a {
-    text-decoration: none; 
-    color: inherit; 
-}
-
-.thumbnail {
-    width: 25px; 
-    height: auto; 
-    margin-bottom: 5px; 
-}
 
 @media (max-width: 768px) {
     nav ul li {
@@ -104,4 +82,31 @@ footer {
     }
 }
 
+.thumbnail-container {
+    display: flex; 
+    justify-content: center; 
+    gap: 10px;
+}
 
+.thumbnail-item {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+}
+
+.thumbnail-item a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.thumbnail {
+    width: 30px; 
+    height: auto; 
+    margin-bottom: 5px; 
+}
+
+.thumbnail-item span {
+    display: block; 
+    font-size: 0.8em; 
+}
