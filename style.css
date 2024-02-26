@@ -82,30 +82,3 @@ footer {
     }
 }
 
-.links-container {
-    display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
-}
-
-.link-with-thumbnail {
-    display: flex; 
-    flex-direction: column;
-    align-items: center;
-    text-align: center; 
-    margin-bottom: 20px; 
-}
-
-.link-with-thumbnail a {
-    text-decoration: none; 
-    color: inherit; 
-    display: block; 
-}
-
-.thumbnail {
-    width: 80px; 
-    height: auto; 
-    margin-bottom: 5px; 
-}
-
