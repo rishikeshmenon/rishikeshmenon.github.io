@@ -82,3 +82,14 @@ footer {
         margin-bottom: 10px;
     }
 }
+
+.link-container {
+    margin-bottom: 10px; /* Adds space between link entries */
+}
+
+.thumbnail {
+    width: 100px; /* Sets the thumbnail width. Adjust as needed */
+    height: auto; /* Maintains aspect ratio */
+    margin-right: 10px; /* Adds some space between the thumbnail and the text */
+    vertical-align: middle; /* Aligns the thumbnail vertically with the text */
+}
