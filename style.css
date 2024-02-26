@@ -83,13 +83,29 @@ footer {
     }
 }
 
-.link-container {
-    margin-bottom: 10px; /* Adds space between link entries */
+.links-container {
+    display: flex; 
+    justify-content: space-around; 
+}
+.link-with-thumbnail {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    margin-right: 20px; 
+}
+
+.link-with-thumbnail a {
+    text-decoration: none; 
+    color: inherit; 
 }
 
 .thumbnail {
-    width: 100px; /* Sets the thumbnail width. Adjust as needed */
+    width: 50px; /* Significantly reduced thumbnail size */
     height: auto; /* Maintains aspect ratio */
-    margin-right: 10px; /* Adds some space between the thumbnail and the text */
-    vertical-align: middle; /* Aligns the thumbnail vertically with the text */
+    margin-bottom: 5px; /* Adds some space between the thumbnail and the text */
 }
+
+a:hover .thumbnail {
+    transform: scale(1.1); /* Increases image size on hover */
+}   
